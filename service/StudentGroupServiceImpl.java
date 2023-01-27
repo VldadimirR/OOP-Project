@@ -3,10 +3,11 @@ package service;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
+import static utils.ReaderFromTxt.getStudentsFromTxt;
+import static utils.ReaderFromTxt.getTeacherFromTxt;
 import dto.Student;
 import dto.StudentGroup;
 import dto.Teacher;
-import static utils.ReaderFromTxt.getStudentsFromTxt;
 
 public class StudentGroupServiceImpl implements StudentGroupService {
 
