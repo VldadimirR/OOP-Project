@@ -1,0 +1,25 @@
+package terminal.executable.executables;
+
+public class DeleteStudentByFioExecutable extends AbstractCommandExecutable {
+    private static final String DESCRIPTION = "Команда для удаления студента по фио ";
+
+    private final StudentService studentService;
+    private final String fio;
+
+    public DeleteStudentByFioExecutable(StudentService studentService, Command command) {
+        this.studentService = studentService;
+        this.fio = command.getAttributes().get(1);
+    }
+
+    @Override
+    public CommandResult execute() {
+        boolean isSuccess = studentService.removeByFio(fio);
+        return createResult(isSuccess);
+    }
+
+    @Override
+    protected String getDescription() {
+        return DESCRIPTION +
+                "'fio'=" + fio + " ";
+    }
+}
