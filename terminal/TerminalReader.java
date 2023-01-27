@@ -1,5 +1,13 @@
 package terminal;
 
+import java.util.Scanner;
+
+import terminal.executable.executables.CommandExecutable;
+import terminal.executable.executables.CommandResult;
+import terminal.executable.factories.CommandExecutableFactory;
+import terminal.parser.CommandParser;
+import terminal.view.ResultView;
+
 public class TerminalReader {
     private static TerminalReader terminalReader;
     private final CommandParser commandParser;

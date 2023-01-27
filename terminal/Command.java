@@ -1,5 +1,8 @@
 package terminal;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Command {
     public static final String ADD = "add";
     public static final String DEL = "del";

@@ -1,5 +1,7 @@
 package repository;
 
+import dto.StudentGroup;
+
 public class GroupRepository implements Repository<StudentGroup, Integer> {
 
     @Override

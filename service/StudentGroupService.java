@@ -1,5 +1,7 @@
 package service;
 
+import dto.StudentGroup;
+
 public interface StudentGroupService {
 
     StudentGroup getGroup(int number);

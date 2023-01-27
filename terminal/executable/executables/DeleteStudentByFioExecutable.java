@@ -1,5 +1,8 @@
 package terminal.executable.executables;
 
+import service.StudentService;
+import terminal.Command;
+
 public class DeleteStudentByFioExecutable extends AbstractCommandExecutable {
     private static final String DESCRIPTION = "Команда для удаления студента по фио ";
 

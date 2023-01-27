@@ -1,5 +1,8 @@
 package service;
 
+import java.util.List;
+import dto.User;
+
 public interface UserService<U extends User> {
 
     U createUser(U user);

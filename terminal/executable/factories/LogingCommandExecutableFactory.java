@@ -1,5 +1,9 @@
 package terminal.executable.factories;
 
+import service.StudentService;
+import terminal.Command;
+import terminal.executable.executables.CommandExecutable;
+
 public class LogingCommandExecutableFactory extends CommandExecutableFactoryImpl {
 
     public LogingCommandExecutableFactory(StudentService studentService) {

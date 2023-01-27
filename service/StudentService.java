@@ -1,5 +1,12 @@
 package service;
 
+import java.util.Collections;
+import java.util.List;
+
+import dto.Student;
+import dto.comparators.UserComparator;
+import repository.StudentRepository;
+
 public class StudentService implements UserService<Student> {
     private final StudentRepository studentRepository;
 

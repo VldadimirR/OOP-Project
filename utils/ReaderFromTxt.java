@@ -1,9 +1,9 @@
-package service;
+package utils;
 
 import java.util.List;
 
 import dto.GroupStream;
 
-public interface GroupStreamService {
+public interface ReaderFromTxt {
     public void streamSort(List<GroupStream> groupStream);
 }

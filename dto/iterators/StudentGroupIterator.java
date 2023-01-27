@@ -1,5 +1,11 @@
 package dto.iterators;
 
+import java.util.Iterator;
+import java.util.List;
+
+import dto.Student;
+import dto.StudentGroup;
+
 public class StudentGroupIterator implements Iterator<Student> {
     private List<Student> students;
     private int cursor;

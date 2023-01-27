@@ -1,5 +1,10 @@
 package dto;
 
+import java.util.Iterator;
+import java.util.List;
+
+import dto.iterators.GroupStreamIterator;
+
 public class GroupStream implements Iterable<StudentGroup> {
     private List<StudentGroup> studentGroupList;
 

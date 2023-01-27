@@ -1,5 +1,8 @@
 package service;
 
+import dto.Teacher;
+import repository.TeacherRepository;
+
 public class TeacherService {
     private final TeacherRepository teacherRepository;
 

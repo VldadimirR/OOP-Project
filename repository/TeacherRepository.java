@@ -1,5 +1,9 @@
 package repository;
 
+import java.util.Collection;
+
+import dto.Teacher;
+
 public class TeacherRepository implements UserRepository<Teacher, Integer> {
     @Override
     public Teacher save(Teacher entity) {

@@ -1,5 +1,11 @@
 package dto.iterators;
 
+import java.util.Iterator;
+import java.util.List;
+
+import dto.GroupStream;
+import dto.StudentGroup;
+
 public class GroupStreamIterator implements Iterator<StudentGroup> {
     private int cursor;
     private final GroupStream groupStream;

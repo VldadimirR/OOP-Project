@@ -1,5 +1,8 @@
 package terminal.executable.executables;
 
+import service.StudentService;
+import terminal.Command;
+
 public class DeleteStudentByAgeAndGroupNumberExecutable extends AbstractCommandExecutable {
     private static final String DESCRIPTION = "Команда для удаления студента по возрасту и номеру группы ";
 

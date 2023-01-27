@@ -1,5 +1,8 @@
 package dto.comparators;
 
+import java.util.Comparator;
+import dto.GroupStream;
+
 public class GroupStreamComparator implements Comparator<GroupStream> {
 
     @Override

@@ -1,5 +1,8 @@
 package db;
 
+import java.util.Iterator;
+import dto.Student;
+
 public class StudentTable extends Table<Student> {
 
     public boolean deleteByFio(String fio) {

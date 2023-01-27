@@ -1,5 +1,8 @@
 package controller;
 
+import dto.Student;
+import service.StudentService;
+
 public class StudentController implements GeneralizedController<Student, Integer> {
     private final StudentService studentService;
 

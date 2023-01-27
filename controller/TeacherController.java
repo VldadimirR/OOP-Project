@@ -1,20 +1,24 @@
 package controller;
 
-public class TeacherController implements GeneralizedController<T, Integer> {
-    private final StudentService studentService;
+import dto.Teacher;
+import service.TeacherService;
 
-    public StudentController(StudentService studentService) {
-        this.studentService = studentService;
+public class TeacherController implements GeneralizedController<Teacher, Integer> {
+    private final TeacherService teacherService;
+
+    public TeacherController(TeacherService teacherService) {
+        this.teacherService = teacherService;
     }
 
     @Override
-    public Student save(Student entity) {
-        return studentService.createUser(entity);
+    public Teacher save(Teacher entity) {
+        return null;
     }
 
+
     @Override
-    public Student findById(Integer id) {
-        return studentService.findById(id);
+    public Teacher findById(Integer id) {
+        return null;
     }
 
 }

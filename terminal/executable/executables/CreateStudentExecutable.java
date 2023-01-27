@@ -1,5 +1,9 @@
 package terminal.executable.executables;
 
+import dto.Student;
+import service.StudentService;
+import terminal.Command;
+
 public class CreateStudentExecutable extends AbstractCommandExecutable {
     private static final String DESCRIPTION = "Команда для создания студента ";
 

@@ -1,5 +1,8 @@
 package dto.comparators;
 
+import java.util.Comparator;
+import dto.User;
+
 public class UserComparator implements Comparator<User> {
 
     @Override

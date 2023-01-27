@@ -1,5 +1,10 @@
 package repository;
 
+import java.util.Collection;
+
+import db.StudentTable;
+import dto.Student;
+
 public class StudentRepository implements UserRepository<Student, Integer> {
 
     private final StudentTable studentTable;
